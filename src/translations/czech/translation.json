@@ -1,0 +1,43 @@
+{
+  "workExperience": {
+    "label": "Pracovní zkušenosti"
+  },
+  "education": {
+    "label": "Vzdělaní"
+  },
+  "skills": {
+    "label": "Znalosti",
+    "level1": "Úplný začátečník",
+    "level2": "Základy",
+    "level3": "Mírně pokročilý",
+    "level4": "Pokročilý",
+    "level5": "Expert"
+  },
+  "additionalInfo": {
+    "label": "Doplňující informace",
+    "completeDev": "kompletní vývoj stránek",
+    "seeAcknowledgmentsSection": "viz sekce Acknowledgments",
+    "projects": "Projekty",
+    "resume": "Životopis"
+  },
+  "untilNow": "Dosud",
+  "languages": {
+    "label": "Jazyky",
+    "a1": "Úplný začátečník",
+    "a2": "Začátečník",
+    "b1": "Mírně pokročilý",
+    "b2": "Středně pokročilý",
+    "c1": "Pokročilý",
+    "c2": "Expert"
+  },
+  "print": {
+    "text": "Pro tisk prosím použijte PDF verzi:",
+    "downloadPdf": "Stáhnout PDF"
+  },
+  "moreInfo": ["Pro více informací viz", "odkaz"],
+  "smtb": [
+    "Zúčastnila jsem se ",
+    "Školy Molekulární a Teoretické Biologie",
+    "následující články popisují výsledky práce na této Škole"
+  ]
+}

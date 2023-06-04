@@ -1,0 +1,7 @@
+.work-experience {
+  margin-top: 16px;
+
+  &:not(:first-child) {
+    margin-top: 27px;
+  }
+}
