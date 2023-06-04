@@ -1,0 +1,7 @@
+.lang-switch {
+  text-align: right;
+
+  @media (max-width: 550px) {
+    text-align: center;
+  }
+}

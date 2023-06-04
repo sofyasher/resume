@@ -1,0 +1,11 @@
+.language {
+  margin-left: 10px;
+
+  &:not(:first-of-type) {
+    margin-left: 20px;
+  }
+}
+
+.flag-icon {
+  margin-right: 10px;
+}

@@ -1,0 +1,19 @@
+@use '../../styles/colors';
+
+.download-pdf-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.download-icon {
+  color: colors.$white !important;
+}
+
+.download-pdf-label {
+  color: colors.$white;
+
+  @media (max-width: 650px) {
+    display: none;
+  }
+}

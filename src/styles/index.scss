@@ -1,0 +1,104 @@
+@use 'colors';
+@import '/node_modules/flag-icons/css/flag-icons.min.css';
+
+html,
+body,
+#root {
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.link {
+  color: colors.$white !important;
+  text-decoration-color: colors.$white !important;
+  transition: opacity 0.4s;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.sections {
+  padding: 40px 200px;
+
+  @media (max-width: 1300px) {
+    padding: 40px 100px;
+  }
+
+  @media (max-width: 1100px) {
+    padding: 40px 50px;
+  }
+
+  @media (max-width: 450px) {
+    padding: 40px 25px;
+  }
+
+  @media (max-width: 400px) {
+    padding: 40px 10px;
+  }
+}
+
+.main {
+  min-height: 100vh;
+  background: linear-gradient(
+    to bottom right,
+    colors.$verdigris,
+    colors.$dark-slate-gray,
+    colors.$myrtle-green,
+    colors.$paynes-gray
+  );
+}
+
+.experience-period {
+  opacity: 0.8;
+  margin-top: 2px;
+}
+
+.experience-description {
+  margin-top: 10px;
+}
+
+.Mui-checked {
+  .MuiSwitch-thumb {
+    color: colors.$white !important;
+  }
+}
+
+.MuiSwitch-track {
+  background-color: colors.$white !important;
+  opacity: 0.5 !important;
+}
+
+@media print {
+  .MuiGrid-root {
+    padding: 0 !important;
+  }
+
+  .lang-switch {
+    display: none;
+  }
+}
+
+.pdf-lang-switch-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+
+  @media (max-width: 650px) {
+    justify-content: space-around;
+  }
+}
